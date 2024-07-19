@@ -1,0 +1,44 @@
+/* src/ExpenseTracker.css */
+
+.expense-tracker {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .expense-tracker form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .expense-tracker ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expense-tracker li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .expense-tracker button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .expense-tracker button:hover {
+    background-color: #ff1a1a;
+  }
+  
